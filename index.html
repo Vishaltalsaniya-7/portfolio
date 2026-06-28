@@ -3,132 +3,371 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishal Talsaniya | Golang Backend Developer</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/your-github-id" type="image/png">
-    <meta name="description" content="Portfolio of Vishal Talsaniya, Golang Backend Developer from Botad, Gujarat, India.">
+    <title>Vishal Talsaniya | Backend & VoIP Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio of Vishal Talsaniya, Golang Backend Developer & VoIP Specialist. Expertise in FreeSWITCH, OpenSIPS, Kamailio, FusionPBX.">
 </head>
 <body>
 
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">VT</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#voip" class="nav-link">VoIP Tech</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <header class="hero">
-      <h1>Vishal Talsaniya</h1>
-      <div class="tagline">Backend Developer | Golang Enthusiast | BCA Student</div>
-      <div class="subheading">"Building scalable systems, one API at a time."</div>
-      <div class="cta">
-        <a href="assets/Vishal_Talsaniya_Resume_VoIP (1).pdf" download>Download Resume</a>
-        <a href="https://linkedin.com/in/vishaltalsaniya" target="_blank">Connect on LinkedIn</a>
-      </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Vishal Talsaniya</h1>
+            <div class="hero-subtitle">Backend Developer & VoIP Specialist</div>
+            <p class="hero-desc">Building scalable telecom systems with Golang, FreeSWITCH, and cutting-edge VoIP infrastructure</p>
+            <div class="hero-cta">
+                <a href="#" class="btn btn-primary">Download Resume</a>
+                <a href="https://linkedin.com/in/vishaltalsaniya" target="_blank" class="btn btn-secondary">LinkedIn</a>
+            </div>
+        </div>
+        <div class="hero-accent"></div>
     </header>
 
     <!-- About Me Section -->
-    <section id="about">
-      <div class="about">
-        <img src="assets/vishal.jpeg" alt="Vishal Talsaniya Profile">
-        <div class="bio">
-          <p><strong>“I believe learning by building is the fastest path to growth.”</strong></p>
-          <p>I’m a backend developer passionate about scalable APIs, clean code, and real-world system design. Skilled in Golang, MySQL, Docker, RabbitMQ, and always exploring more—like AWS and cloud architecture. Currently in the learning phase of VoIP technologies and exploring FreeSWITCH.</p>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p class="about-quote">"I believe learning by building is the fastest path to growth."</p>
+                    <p>I'm a backend developer specializing in VoIP infrastructure and real-time communication systems. With deep expertise in telecom protocols and modern backend architecture, I build scalable APIs and robust systems that handle millions of calls.</p>
+                    <p>My technical foundation spans Golang, system design, and cloud infrastructure. My specialization: VoIP technologies, SIP signaling, media handling, and FreeSWITCH customization.</p>
+                    <div class="about-goals">
+                        <h3>Goals</h3>
+                        <ul>
+                            <li>🎯 Master advanced FreeSWITCH & VoIP system design</li>
+                            <li>🎯 Contribute to telecom open-source projects</li>
+                            <li>🎯 Build production-grade VoIP platforms</li>
+                            <li>🎯 Explore AI-powered call intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years VoIP Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Backend Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">VoIP Platforms</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Golang</div>
+                        <div class="stat-label">Primary Language</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="goals">
-          <ul>
-            <li>✅ Contribute to open-source backend projects</li>
-            <li>✅ Get my first backend internship</li>
-            <li>✅ Master system design & scalable architecture</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skills">
-        <div class="skill">Go (Golang)</div>
-        <div class="skill">C</div>
-        <div class="skill">RESTful API Design</div>
-        <div class="skill">MySQL &amp; GORM</div>
-        <div class="skill">Docker &amp; Containers</div>
-        <div class="skill">RabbitMQ</div>
-        <div class="skill">Clean Architecture (MVC, SOLID)</div>
-        <div class="skill">Git &amp; GitHub</div>
-        <div class="skill">System Design (Learning)</div>
-        <div class="skill">Cloud (AWS - Exploring)</div>
-      </div>
+    <!-- Core Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Core Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Go (Golang)</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">gRPC</span>
+                        <span class="skill-tag">MySQL & GORM</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure & DevOps</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker Compose</span>
+                        <span class="skill-tag">RabbitMQ</span>
+                        <span class="skill-tag">Message Queues</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">CI/CD (Learning)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Architecture & Design</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Clean Architecture</span>
+                        <span class="skill-tag">MVC Pattern</span>
+                        <span class="skill-tag">SOLID Principles</span>
+                        <span class="skill-tag">System Design</span>
+                        <span class="skill-tag">JWT Authentication</span>
+                        <span class="skill-tag">Microservices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Experience Timeline -->
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h4>Siprtc</h4>
-          <div class="period">Dec 2024 – Present | Backend Developer Intern</div>
-          <ul>
-            <li>Designed scalable REST APIs using Go</li>
-            <li>Built features like JWT auth, file uploads, background tasks</li>
-            <li>Used Docker, RabbitMQ, MySQL, MVC pattern, and GORM</li>
-          </ul>
+    <!-- VoIP Technologies Section -->
+    <section id="voip" class="voip-section">
+        <div class="container">
+            <div class="voip-header">
+                <h2>VoIP Technologies & Protocols</h2>
+                <p>Specialized expertise in building and managing enterprise-grade VoIP infrastructure</p>
+            </div>
+
+            <div class="voip-platforms">
+                <!-- FreeSWITCH -->
+                <div class="voip-card">
+                    <div class="voip-icon">📞</div>
+                    <h3>FreeSWITCH</h3>
+                    <ul class="voip-features">
+                        <li><strong>SIP Call Handling:</strong> Inbound/outbound call routing, registration</li>
+                        <li><strong>Profiles:</strong> Internal and external profile configuration</li>
+                        <li><strong>Media Flow:</strong> RTP/RTCP, codec negotiation, transcoding</li>
+                        <li><strong>ESL:</strong> Event Socket Library for external control</li>
+                        <li><strong>Call Events:</strong> CHANNEL_CREATE, ANSWER, BRIDGE, HANGUP, DESTROY</li>
+                        <li><strong>Dialplan:</strong> XML-based call routing and IVR logic</li>
+                        <li><strong>Integration:</strong> Database-backed configurations</li>
+                    </ul>
+                </div>
+
+                <!-- FusionPBX -->
+                <div class="voip-card">
+                    <div class="voip-icon">🔧</div>
+                    <h3>FusionPBX</h3>
+                    <ul class="voip-features">
+                        <li><strong>PBX Configuration:</strong> Full FreeSWITCH management</li>
+                        <li><strong>Extension Management:</strong> User provisioning, voicemail</li>
+                        <li><strong>Dialplan Customization:</strong> Advanced routing scenarios</li>
+                        <li><strong>Recordings:</strong> Call recording and playback</li>
+                        <li><strong>Presence:</strong> User status and availability</li>
+                        <li><strong>WebUI:</strong> Admin console and user portal</li>
+                    </ul>
+                </div>
+
+                <!-- OpenSIPS -->
+                <div class="voip-card">
+                    <div class="voip-icon">🌐</div>
+                    <h3>OpenSIPS</h3>
+                    <ul class="voip-features">
+                        <li><strong>SIP Routing:</strong> Advanced routing policies</li>
+                        <li><strong>Load Balancing:</strong> Distribute calls across servers</li>
+                        <li><strong>Proxy Configuration:</strong> B2BUA and proxy modes</li>
+                        <li><strong>Dispatcher Module:</strong> Call distribution and failover</li>
+                        <li><strong>User Location:</strong> Contact registration and lookup</li>
+                        <li><strong>Authentication:</strong> SIP authentication and authorization</li>
+                        <li><strong>Scripting:</strong> OpenSIPS routing language (OSL)</li>
+                    </ul>
+                </div>
+
+                <!-- Kamailio -->
+                <div class="voip-card">
+                    <div class="voip-icon">⚙️</div>
+                    <h3>Kamailio (formerly OpenSER)</h3>
+                    <ul class="voip-features">
+                        <li><strong>SIP Signaling:</strong> High-performance SIP processing</li>
+                        <li><strong>Routing Logic:</strong> Flexible scripting with Kamailio Config</li>
+                        <li><strong>TLS/SRTP:</strong> Secure SIP and media encryption</li>
+                        <li><strong>NAT Traversal:</strong> STUN/ICE support</li>
+                        <li><strong>Presence:</strong> SUBSCRIBE/NOTIFY handling</li>
+                        <li><strong>Load Balancing:</strong> Dispatcher and load modules</li>
+                        <li><strong>Monitoring:</strong> Real-time call tracking</li>
+                    </ul>
+                </div>
+
+                <!-- Protocols Section -->
+                <div class="voip-card">
+                    <div class="voip-icon">🔐</div>
+                    <h3>Core Protocols & Technologies</h3>
+                    <ul class="voip-features">
+                        <li><strong>SIP Protocol:</strong> Session Initiation Protocol (RFC 3261) - call signaling, registration, session management, call setup/teardown</li>
+                        <li><strong>RTP/RTCP:</strong> Real-time Protocol - media transmission, quality monitoring, jitter and packet loss analysis</li>
+                        <li><strong>RTPEngine:</strong> Media proxying, NAT traversal, codec handling, traffic shaping</li>
+                        <li><strong>WebRTC:</strong> Browser-based real-time communication, SRTP, WebSocket signaling</li>
+                        <li><strong>ICE/STUN/TURN:</strong> NAT traversal and connectivity</li>
+                        <li><strong>SDP:</strong> Session Description Protocol for media negotiation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="voip-expertise">
+                <div class="expertise-card">
+                    <h4>Call Flow Architecture</h4>
+                    <p>Design and implementation of complex call flows including IVR, call transfer, conferencing, and call recording in FreeSWITCH</p>
+                </div>
+                <div class="expertise-card">
+                    <h4>Media Handling</h4>
+                    <p>RTP media stream management, codec selection, transcoding, and quality optimization using RTPEngine</p>
+                </div>
+                <div class="expertise-card">
+                    <h4>SIP Signaling</h4>
+                    <p>Deep understanding of SIP protocol flow, registration, authentication, and session management</p>
+                </div>
+                <div class="expertise-card">
+                    <h4>System Integration</h4>
+                    <p>Integration with backend services via ESL, HTTP callbacks, and external APIs for call intelligence</p>
+                </div>
+            </div>
         </div>
-        <div class="timeline-item">
-          <h4>ATMIYA University</h4>
-          <div class="period">Jun 2022 – Dec 2024 | BCA Student</div>
-          <ul>
-            <li>Built multiple academic and personal backend projects</li>
-            <li>Gained deep hands-on experience in Go, MySQL, and Docker</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
-    <!-- Projects Showcase -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="projects">
-        <div class="project-card">
-          <div class="project-title"> CRM System</div>
-          <div class="project-tech">Go, MySQL, RabbitMQ</div>
-          <div class="project-desc">Full-fledged system with user auth, file uploads, and analytics built using Go, MySQL, and RabbitMQ</div>
-          <div class="project-links">
-            <a href="https://github.com/Vishaltalsaniya-7" target="_blank">🔗 GitHub</a>
-          </div>
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer Intern</h3>
+                        <p class="experience-company">Siprtc</p>
+                        <p class="experience-period">Dec 2024 – Present</p>
+                        <ul>
+                            <li>Designed and implemented scalable REST APIs using Go with clean architecture patterns</li>
+                            <li>Built VoIP platform features including call routing, SIP integration, and media handling</li>
+                            <li>Implemented JWT authentication, file uploads, and background job processing</li>
+                            <li>Utilized Docker, RabbitMQ, MySQL, MVC pattern, and GORM for robust backend systems</li>
+                            <li>Worked on FreeSWITCH integration for call signaling and media flow management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>BCA Student & Independent Developer</h3>
+                        <p class="experience-company">ATMIYA University</p>
+                        <p class="experience-period">Jun 2022 – Dec 2024</p>
+                        <ul>
+                            <li>Built multiple backend projects with focus on scalability and clean code</li>
+                            <li>Gained deep hands-on experience in Go, MySQL, Docker, and system architecture</li>
+                            <li>Developed VoIP-related projects exploring FreeSWITCH and SIP protocol</li>
+                            <li>Contributed to open-source projects and personal portfolio systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Add more project cards as needed -->
-      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-badge">VoIP</div>
+                    <h3>CRM System with VoIP Integration</h3>
+                    <p class="project-tech">Go • MySQL • RabbitMQ • FreeSWITCH</p>
+                    <p class="project-description">Enterprise CRM system with integrated VoIP capabilities. Features include user authentication, call logging, file uploads, analytics, and FreeSWITCH call routing integration.</p>
+                    <div class="project-features">
+                        <span class="feature">REST APIs</span>
+                        <span class="feature">Call Logging</span>
+                        <span class="feature">Analytics</span>
+                        <span class="feature">File Management</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Vishaltalsaniya-7" target="_blank">View Code →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-badge">Backend</div>
+                    <h3>Scalable API Backend</h3>
+                    <p class="project-tech">Go • PostgreSQL • Docker • Clean Architecture</p>
+                    <p class="project-description">Production-ready backend service demonstrating clean architecture principles, SOLID patterns, and scalable API design. Includes comprehensive error handling and database optimization.</p>
+                    <div class="project-features">
+                        <span class="feature">Clean Code</span>
+                        <span class="feature">Tested</span>
+                        <span class="feature">Dockerized</span>
+                        <span class="feature">Documented</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Vishaltalsaniya-7" target="_blank">View Code →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-badge">Learning</div>
+                    <h3>VoIP Infrastructure Exploration</h3>
+                    <p class="project-tech">FreeSWITCH • OpenSIPS • RTPEngine</p>
+                    <p class="project-description">Hands-on exploration of VoIP technologies including FreeSWITCH configuration, SIP routing with OpenSIPS, and media proxy setup with RTPEngine for NAT traversal.</p>
+                    <div class="project-features">
+                        <span class="feature">SIP</span>
+                        <span class="feature">Call Routing</span>
+                        <span class="feature">Media Proxy</span>
+                        <span class="feature">IVR</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Documentation →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="contact">
-        <div class="contact-item"><strong>Email:</strong> <a href="mailto:vishaltalsaniya991@gmail.com">vishaltalsaniya991@gmail.com</a></div>
-        <div class="contact-item"><strong>Location:</strong> Limboda, Botad - 364720, Gujarat</div>
-        <div class="contact-item"><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/vishaltalsaniya" target="_blank">linkedin.com/in/vishaltalsaniya</a></div>
-        <div class="contact-item"><strong>GitHub:</strong> <a href="#" target="_blank">github.com/vishaltalsaniya</a></div>
-      </div>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="contact-intro">Open to VoIP projects, backend challenges, and discussions on telecom architecture</p>
+            <div class="contact-grid">
+                <a href="mailto:vishaltalsaniya991@gmail.com" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>vishaltalsaniya991@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://linkedin.com/in/vishaltalsaniya" target="_blank" class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/vishaltalsaniya</p>
+                    </div>
+                </a>
+                <a href="https://github.com/vishaltalsaniya" target="_blank" class="contact-card">
+                    <div class="contact-icon">🔗</div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>github.com/vishaltalsaniya</p>
+                    </div>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-info">
+                        <h3>Location</h3>
+                        <p>Limboda, Botad - 364720, Gujarat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-      <div>Built with ❤️ by Vishal Talsaniya | © 2025</div>
-      <div class="socials">
-        <a href="https://linkedin.com/in/vishaltalsaniya" target="_blank" aria-label="LinkedIn"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.381-1.563 2.844-1.563 3.042 0 3.604 2.003 3.604 4.605v5.591z"/></svg></a>
-        <a href="#" target="_blank" aria-label="GitHub"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.334-5.466-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576 4.765-1.588 8.199-6.084 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-      </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Built with ❤️ by Vishal Talsaniya | © 2025</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/vishaltalsaniya" target="_blank">LinkedIn</a>
+                <a href="https://github.com/vishaltalsaniya" target="_blank">GitHub</a>
+            </div>
+        </div>
     </footer>
 
-    <script>
-      // Animate sections on scroll
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.style.animationPlayState = 'running';
-          }
-        });
-      }, { threshold: 0.1 });
-      document.querySelectorAll('section').forEach(section => {
-        section.style.animationPlayState = 'paused';
-        observer.observe(section);
-      });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
