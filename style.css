@@ -1000,6 +1000,8 @@ section {
     transition: var(--transition);
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+    min-width: 0;
+    overflow: hidden;
 }
 
 .contact-card:hover {
@@ -1021,6 +1023,9 @@ section {
 .contact-info p {
     color: #dbeafe;
     font-size: 0.95rem;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.6;
 }
 
 /* ===========================
